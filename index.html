@@ -13,19 +13,38 @@
 </head>
 
 <body>
-    <header>
-        <h1>Mad-Lib!</h1>
-        <ol>
+    <header class="header">
+        <h2><center>Mad-Lib!</center></h2>
+        <br>
+        <ul><center>
             <li>Choose a word for each part of speech specified below</li>
             <li>Click the "submit" button</li>
             <li>A new song will be generated, with your original lyrics!</li>
-        </ol>
+            </center>
+        </ul>
     </header>
-    <main>
+    <main class="main">
         <section id="input-form">
-
+            <p>Verb</p>
+            <input/>
+            <p>Adjective</p>
+            <input/>
+            <p>Verb</p>
+            <input/>
+            <p>Noun</p>
+            <input/>
+            <p>Verb</p>
+            <input/>
+            <p>Name</p>
+            <input/><br>
+            <button class="button" id="submit">Submit</button>
         </section>
         <section id="output-form" class="hidden">
+            <p>He <span></span> a Whiskey drink, he drinks a Vodka drink</p>
+            <p>He drinks a Lager drink, he drinks a <span></span> drink</p>
+            <p>He <span></span> the <span></span> that remind him of the good times</p>
+            <p>He sings the songs that <span></span> him of the best times</p>
+            <p>(Oh <span></span> Boy, Danny Boy, Danny Boy)</p>
 
         </section>
     </main>
