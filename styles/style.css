@@ -1,7 +1,7 @@
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
+    --color2: greenyellow;
     --color3: hsla(200, 61%, 56%, 1);
     --color4: hsla(187, 41%, 94%, 1);
     --color5: hsla(170, 28%, 95%, 1);
@@ -14,7 +14,7 @@ body {
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
-    --gutter: 30px;
+    --gutter: 5px;
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
@@ -37,7 +37,7 @@ body {
 section {
     font-size: 25px;
     background-color: yellowgreen;
-    width: 700px;
+    width: 600px;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -48,14 +48,6 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
-}
-
-.header {
-    
-
-   
-    background-color: greenyellow
- 
 }
 
 footer {
@@ -75,14 +67,6 @@ h2 {
     margin-right: 20px;
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-}
-
-
-
-
-
 content {
     width: 80%;
 }
@@ -101,25 +85,7 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
 
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
-
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }
   .hidden {
       display: none;
   }
